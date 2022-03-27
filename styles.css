@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #79b4b7;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   background-color: #fefbf3;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -14,4 +20,18 @@ h1 {
 
 .hero {
   background-color: #f8f0df;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  color: #3a3845;
 }
