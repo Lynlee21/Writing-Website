@@ -30,6 +30,8 @@ h2 {
 
 .hero {
   background-color: #f8f0df;
+  padding: 15px;
+  margin-bottom: 25px;
 }
 
 .primary-link {
