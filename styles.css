@@ -85,3 +85,7 @@ footer .social-links a:hover {
 footer {
   margin: 60px 0;
 }
+
+small {
+  font-family: monospace;
+}
