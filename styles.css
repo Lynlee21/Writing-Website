@@ -88,4 +88,9 @@ footer {
 
 small {
   font-family: monospace;
+  font-size: 10px;
+}
+
+img {
+  padding: 25px;
 }
